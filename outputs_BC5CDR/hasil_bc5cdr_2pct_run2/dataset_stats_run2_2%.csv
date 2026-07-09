@@ -1,0 +1,5 @@
+Dataset,Few-shot,Config,N_sentences,Entity_tokens,Non_entity_tokens,Mean_IR,Aug_instances
+BC5CDR,2%,COSINER+iBUS,417,797,8144,10.91,315
+BC5CDR,2%,ADAMER Only,216,291,6051,21.63,114
+BC5CDR,2%,ADAMER+iBUS,216,291,4296,13.38,114
+BC5CDR,2%,iBUS+ADAMER (Proposed),159,214,3104,12.55,57

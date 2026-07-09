@@ -1,0 +1,5 @@
+Dataset,Few-shot,Config,N_sentences,Entity_tokens,Non_entity_tokens,Mean_IR,Aug_instances
+BC5CDR,2%,No Augmentation,102,122,2228,15.26,0
+BC5CDR,2%,iBUS Only,102,122,1917,11.2,0
+BC5CDR,2%,COSINER Only,417,797,9955,14.88,315
+BC5CDR,2%,iBUS+COSINER,417,797,8089,10.89,315
