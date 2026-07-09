@@ -1,0 +1,29 @@
+Dataset,Scenario,Run,Method_A,Method_B,F1_A_pct,F1_B_pct,Delta_pct,N_seeds,Shapiro_p_diff,Test_Used,p_raw,Effect_Size,Effect_Type,Magnitude,CI95_low_diff_pct,CI95_high_diff_pct,p_Bonferroni,p_BH_FDR,Sig_Bonferroni,Sig_BH_FDR
+NCBI,2%,full,No Augmentation,iBUS Only,68.0938,68.2824,-0.1886,5,0.219025,paired_t,0.565689,-0.2796,cohens_d_z,Small,-1.0262,0.6489,1.0,0.866319,ns,ns
+NCBI,2%,full,No Augmentation,COSINER Only,68.0938,69.2373,-1.1436,5,0.224257,paired_t,0.290659,-0.544,cohens_d_z,Medium,-3.7535,1.4664,1.0,0.717859,ns,ns
+NCBI,2%,full,No Augmentation,iBUS+COSINER,68.0938,68.7544,-0.6606,5,0.267154,paired_t,0.513946,-0.3199,cohens_d_z,Small,-3.2247,1.9035,1.0,0.866319,ns,ns
+NCBI,2%,full,No Augmentation,COSINER+iBUS,68.0938,69.3505,-1.2567,5,0.39414,paired_t,0.168345,-0.7511,cohens_d_z,Medium,-3.3341,0.8207,1.0,0.717859,ns,ns
+NCBI,2%,full,No Augmentation,ADAMER Only,68.0938,69.8217,-1.728,5,0.527463,paired_t,0.251537,-0.5989,cohens_d_z,Medium,-5.3104,1.8544,1.0,0.717859,ns,ns
+NCBI,2%,full,No Augmentation,ADAMER+iBUS,68.0938,68.3338,-0.2401,5,0.729053,paired_t,0.910699,-0.0534,cohens_d_z,Negligible,-5.8218,5.3416,1.0,0.944428,ns,ns
+NCBI,2%,full,No Augmentation,iBUS+ADAMER,68.0938,70.3092,-2.2154,5,0.416867,paired_t,0.170994,-0.7452,cohens_d_z,Medium,-5.9069,1.4761,1.0,0.717859,ns,ns
+NCBI,2%,full,iBUS Only,COSINER Only,68.2824,69.2373,-0.9549,5,0.361971,paired_t,0.290144,-0.5447,cohens_d_z,Medium,-3.1317,1.2218,1.0,0.717859,ns,ns
+NCBI,2%,full,iBUS Only,iBUS+COSINER,68.2824,68.7544,-0.472,5,0.985481,paired_t,0.640725,-0.2254,cohens_d_z,Small,-3.0718,2.1279,1.0,0.866319,ns,ns
+NCBI,2%,full,iBUS Only,COSINER+iBUS,68.2824,69.3505,-1.0681,5,0.934672,paired_t,0.246867,-0.606,cohens_d_z,Medium,-3.2565,1.1203,1.0,0.717859,ns,ns
+NCBI,2%,full,iBUS Only,ADAMER Only,68.2824,69.8217,-1.5393,5,0.898496,paired_t,0.335519,-0.4891,cohens_d_z,Small,-5.447,2.3683,1.0,0.722655,ns,ns
+NCBI,2%,full,iBUS Only,ADAMER+iBUS,68.2824,68.3338,-0.0515,5,0.622688,paired_t,0.981586,-0.011,cohens_d_z,Negligible,-5.8702,5.7673,1.0,0.981586,ns,ns
+NCBI,2%,full,iBUS Only,iBUS+ADAMER,68.2824,70.3092,-2.0268,5,0.750884,paired_t,0.248287,-0.6038,cohens_d_z,Medium,-6.1944,2.1409,1.0,0.717859,ns,ns
+NCBI,2%,full,COSINER Only,iBUS+COSINER,69.2373,68.7544,0.483,5,0.797688,paired_t,0.658575,0.2131,cohens_d_z,Small,-2.3311,3.297,1.0,0.866319,ns,ns
+NCBI,2%,full,COSINER Only,COSINER+iBUS,69.2373,69.3505,-0.1131,5,0.161111,paired_t,0.900349,-0.0596,cohens_d_z,Negligible,-2.4685,2.2422,1.0,0.944428,ns,ns
+NCBI,2%,full,COSINER Only,ADAMER Only,69.2373,69.8217,-0.5844,5,0.837905,paired_t,0.765003,-0.1431,cohens_d_z,Negligible,-5.6552,4.4864,1.0,0.866319,ns,ns
+NCBI,2%,full,COSINER Only,ADAMER+iBUS,69.2373,68.3338,0.9035,5,0.875965,paired_t,0.721896,0.1708,cohens_d_z,Negligible,-5.6634,7.4704,1.0,0.866319,ns,ns
+NCBI,2%,full,COSINER Only,iBUS+ADAMER,69.2373,70.3092,-1.0718,5,0.697651,paired_t,0.596565,-0.2568,cohens_d_z,Small,-6.2543,4.1106,1.0,0.866319,ns,ns
+NCBI,2%,full,iBUS+COSINER,COSINER+iBUS,68.7544,69.3505,-0.5961,5,0.680521,paired_t,0.275731,-0.5641,cohens_d_z,Medium,-1.9082,0.716,1.0,0.717859,ns,ns
+NCBI,2%,full,iBUS+COSINER,ADAMER Only,68.7544,69.8217,-1.0674,5,0.096948,paired_t,0.307654,-0.5224,cohens_d_z,Medium,-3.6044,1.4697,1.0,0.717859,ns,ns
+NCBI,2%,full,iBUS+COSINER,ADAMER+iBUS,68.7544,68.3338,0.4205,5,0.926383,paired_t,0.773499,0.1377,cohens_d_z,Negligible,-3.3711,4.2121,1.0,0.866319,ns,ns
+NCBI,2%,full,iBUS+COSINER,iBUS+ADAMER,68.7544,70.3092,-1.5548,5,0.400439,paired_t,0.21577,-0.6569,cohens_d_z,Medium,-4.4934,1.3839,1.0,0.717859,ns,ns
+NCBI,2%,full,COSINER+iBUS,ADAMER Only,69.3505,69.8217,-0.4713,5,0.107888,paired_t,0.719004,-0.1727,cohens_d_z,Negligible,-3.8591,2.9166,1.0,0.866319,ns,ns
+NCBI,2%,full,COSINER+iBUS,ADAMER+iBUS,69.3505,68.3338,1.0166,5,0.648653,paired_t,0.588832,0.2624,cohens_d_z,Small,-3.7932,5.8264,1.0,0.866319,ns,ns
+NCBI,2%,full,COSINER+iBUS,iBUS+ADAMER,69.3505,70.3092,-0.9587,5,0.223284,paired_t,0.512999,-0.3207,cohens_d_z,Small,-4.6709,2.7535,1.0,0.866319,ns,ns
+NCBI,2%,full,ADAMER Only,ADAMER+iBUS,69.8217,68.3338,1.4879,5,0.879395,paired_t,0.126855,0.8599,cohens_d_z,Large,-0.6605,3.6363,1.0,0.717859,ns,ns
+NCBI,2%,full,ADAMER Only,iBUS+ADAMER,69.8217,70.3092,-0.4874,5,0.536714,paired_t,0.365686,-0.4559,cohens_d_z,Small,-1.8151,0.8403,1.0,0.731372,ns,ns
+NCBI,2%,full,ADAMER+iBUS,iBUS+ADAMER,68.3338,70.3092,-1.9753,5,0.175306,paired_t,0.119724,-0.8825,cohens_d_z,Large,-4.7547,0.804,1.0,0.717859,ns,ns
