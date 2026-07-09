@@ -1,0 +1,5 @@
+Dataset,Few-shot,Config,N_sentences,Entity_tokens,Non_entity_tokens,Mean_IR,Aug_instances
+BC2GM,2%,No Augmentation,272,765,6688,8.4,0
+BC2GM,2%,iBUS Only,272,765,6473,7.15,0
+BC2GM,2%,COSINER Only,1007,5208,24245,8.79,735
+BC2GM,2%,iBUS+COSINER,1007,5208,22955,7.85,735
