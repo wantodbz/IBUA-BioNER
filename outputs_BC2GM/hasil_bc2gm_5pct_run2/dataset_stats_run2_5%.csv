@@ -1,5 +1,0 @@
-Dataset,Few-shot,Config,N_sentences,Entity_tokens,Non_entity_tokens,Mean_IR,Aug_instances
-BC2GM,5%,COSINER+iBUS,2312,12864,52141,6.56,1685
-BC2GM,5%,ADAMER Only,1234,3783,33575,12.07,607
-BC2GM,5%,ADAMER+iBUS,1234,3783,30197,9.05,607
-BC2GM,5%,iBUS+ADAMER (Proposed),1234,3783,29489,9.56,607
