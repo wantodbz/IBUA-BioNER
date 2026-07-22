@@ -1,0 +1,7 @@
+Dataset,Scenario,Run,Method_A,Method_B,F1_A_pct,F1_B_pct,Delta_pct,N_seeds,Shapiro_p_diff,Test_Used,p_raw,Effect_Size,Effect_Type,Magnitude,CI95_low_diff_pct,CI95_high_diff_pct,p_Bonferroni,p_BH_FDR,Sig_Bonferroni,Sig_BH_FDR
+BC2GM,5%,run2,COSINER+iBUS,ADAMER Only,69.674,70.6795,-1.0055,5,0.685706,paired_t,0.10991,-0.916,cohens_d_z,Large,-2.3684,0.3575,0.659462,0.219821,ns,ns
+BC2GM,5%,run2,COSINER+iBUS,ADAMER+iBUS,69.674,70.7216,-1.0476,5,0.030914,wilcoxon,0.1875,-0.7333,rank_biserial,Large,-2.7184,0.6231,1.0,0.225,ns,ns
+BC2GM,5%,run2,COSINER+iBUS,iBUS+ADAMER,69.674,71.2929,-1.6189,5,0.989301,paired_t,0.010475,-2.0316,cohens_d_z,Large,-2.6084,-0.6295,0.062847,0.062847,ns,ns
+BC2GM,5%,run2,ADAMER Only,ADAMER+iBUS,70.6795,70.7216,-0.0422,5,0.148975,paired_t,0.926149,-0.0441,cohens_d_z,Negligible,-1.2292,1.1448,1.0,0.926149,ns,ns
+BC2GM,5%,run2,ADAMER Only,iBUS+ADAMER,70.6795,71.2929,-0.6135,5,0.589429,paired_t,0.028036,-1.5072,cohens_d_z,Large,-1.1189,-0.1081,0.168217,0.084108,ns,ns
+BC2GM,5%,run2,ADAMER+iBUS,iBUS+ADAMER,70.7216,71.2929,-0.5713,5,0.551185,paired_t,0.169433,-0.7487,cohens_d_z,Medium,-1.5188,0.3762,1.0,0.225,ns,ns
