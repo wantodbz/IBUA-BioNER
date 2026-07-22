@@ -1,0 +1,29 @@
+Dataset,Scenario,Run,Method_A,Method_B,F1_A_pct,F1_B_pct,Delta_pct,N_seeds,Shapiro_p_diff,Test_Used,p_raw,Effect_Size,Effect_Type,Magnitude,CI95_low_diff_pct,CI95_high_diff_pct,p_Bonferroni,p_BH_FDR,Sig_Bonferroni,Sig_BH_FDR
+NCBI,2%,full,No Augmentation,iBUS Only,65.1965,65.6813,-0.4848,5,0.637792,paired_t,0.520774,-0.3144,cohens_d_z,Small,-2.3995,1.4298,1.0,0.9678,ns,ns
+NCBI,2%,full,No Augmentation,COSINER Only,65.1965,65.9507,-0.7542,5,0.887693,paired_t,0.320099,-0.5072,cohens_d_z,Medium,-2.6006,1.0922,1.0,0.9678,ns,ns
+NCBI,2%,full,No Augmentation,iBUS+COSINER,65.1965,66.0588,-0.8623,5,0.951696,paired_t,0.378051,-0.4429,cohens_d_z,Small,-3.2797,1.5551,1.0,0.9678,ns,ns
+NCBI,2%,full,No Augmentation,COSINER+iBUS,65.1965,65.3169,-0.1204,5,0.628267,paired_t,0.933235,-0.0399,cohens_d_z,Negligible,-3.8684,3.6276,1.0,0.9678,ns,ns
+NCBI,2%,full,No Augmentation,ADAMER Only,65.1965,66.0439,-0.8474,5,0.172369,paired_t,0.468645,-0.3577,cohens_d_z,Small,-3.7892,2.0944,1.0,0.9678,ns,ns
+NCBI,2%,full,No Augmentation,ADAMER+iBUS,65.1965,66.2843,-1.0877,5,0.536667,paired_t,0.346232,-0.477,cohens_d_z,Small,-3.9191,1.7436,1.0,0.9678,ns,ns
+NCBI,2%,full,No Augmentation,iBUS+ADAMER,65.1965,66.8462,-1.6496,5,0.33356,paired_t,0.046404,-1.2745,cohens_d_z,Large,-3.2568,-0.0425,1.0,0.9678,ns,ns
+NCBI,2%,full,iBUS Only,COSINER Only,65.6813,65.9507,-0.2694,5,0.084317,paired_t,0.779295,-0.1341,cohens_d_z,Negligible,-2.7646,2.2258,1.0,0.9678,ns,ns
+NCBI,2%,full,iBUS Only,iBUS+COSINER,65.6813,66.0588,-0.3775,5,0.143832,paired_t,0.742718,-0.1573,cohens_d_z,Negligible,-3.3562,2.6013,1.0,0.9678,ns,ns
+NCBI,2%,full,iBUS Only,COSINER+iBUS,65.6813,65.3169,0.3645,5,0.245787,paired_t,0.693896,0.1893,cohens_d_z,Negligible,-2.0265,2.7555,1.0,0.9678,ns,ns
+NCBI,2%,full,iBUS Only,ADAMER Only,65.6813,66.0439,-0.3626,5,0.900169,paired_t,0.816223,-0.111,cohens_d_z,Negligible,-4.4187,3.6936,1.0,0.9678,ns,ns
+NCBI,2%,full,iBUS Only,ADAMER+iBUS,65.6813,66.2843,-0.6029,5,0.356392,paired_t,0.3984,-0.4224,cohens_d_z,Small,-2.3753,1.1694,1.0,0.9678,ns,ns
+NCBI,2%,full,iBUS Only,iBUS+ADAMER,65.6813,66.8462,-1.1648,5,0.250482,paired_t,0.210506,-0.6663,cohens_d_z,Medium,-3.3355,1.0059,1.0,0.9678,ns,ns
+NCBI,2%,full,COSINER Only,iBUS+COSINER,65.9507,66.0588,-0.1081,5,0.374085,paired_t,0.904294,-0.0573,cohens_d_z,Negligible,-2.4515,2.2354,1.0,0.9678,ns,ns
+NCBI,2%,full,COSINER Only,COSINER+iBUS,65.9507,65.3169,0.6339,5,0.314052,paired_t,0.665526,0.2084,cohens_d_z,Small,-3.1435,4.4112,1.0,0.9678,ns,ns
+NCBI,2%,full,COSINER Only,ADAMER Only,65.9507,66.0439,-0.0932,5,0.752205,paired_t,0.923884,-0.0455,cohens_d_z,Negligible,-2.6365,2.4501,1.0,0.9678,ns,ns
+NCBI,2%,full,COSINER Only,ADAMER+iBUS,65.9507,66.2843,-0.3335,5,0.054052,paired_t,0.690928,-0.1912,cohens_d_z,Negligible,-2.4989,1.8318,1.0,0.9678,ns,ns
+NCBI,2%,full,COSINER Only,iBUS+ADAMER,65.9507,66.8462,-0.8954,5,0.046006,wilcoxon,0.3125,-0.6,rank_biserial,Large,-3.6787,1.8878,1.0,0.9678,ns,ns
+NCBI,2%,full,iBUS+COSINER,COSINER+iBUS,66.0588,65.3169,0.7419,5,0.947726,paired_t,0.542565,0.2973,cohens_d_z,Small,-2.3568,3.8407,1.0,0.9678,ns,ns
+NCBI,2%,full,iBUS+COSINER,ADAMER Only,66.0588,66.0439,0.0149,5,0.322375,paired_t,0.992572,0.0044,cohens_d_z,Negligible,-4.1645,4.1943,1.0,0.992572,ns,ns
+NCBI,2%,full,iBUS+COSINER,ADAMER+iBUS,66.0588,66.2843,-0.2254,5,0.70563,paired_t,0.83065,-0.1021,cohens_d_z,Negligible,-2.9679,2.517,1.0,0.9678,ns,ns
+NCBI,2%,full,iBUS+COSINER,iBUS+ADAMER,66.0588,66.8462,-0.7873,5,0.108095,paired_t,0.549848,-0.2917,cohens_d_z,Small,-4.1391,2.5644,1.0,0.9678,ns,ns
+NCBI,2%,full,COSINER+iBUS,ADAMER Only,65.3169,66.0439,-0.727,5,0.739348,paired_t,0.750846,-0.1521,cohens_d_z,Negligible,-6.6611,5.207,1.0,0.9678,ns,ns
+NCBI,2%,full,COSINER+iBUS,ADAMER+iBUS,65.3169,66.2843,-0.9674,5,0.403163,paired_t,0.301803,-0.5297,cohens_d_z,Medium,-3.235,1.3002,1.0,0.9678,ns,ns
+NCBI,2%,full,COSINER+iBUS,iBUS+ADAMER,65.3169,66.8462,-1.5293,5,0.523756,paired_t,0.374873,-0.4462,cohens_d_z,Small,-5.7849,2.7263,1.0,0.9678,ns,ns
+NCBI,2%,full,ADAMER Only,ADAMER+iBUS,66.0439,66.2843,-0.2404,5,0.89733,paired_t,0.875684,-0.0746,cohens_d_z,Negligible,-4.2432,3.7625,1.0,0.9678,ns,ns
+NCBI,2%,full,ADAMER Only,iBUS+ADAMER,66.0439,66.8462,-0.8023,5,0.942326,paired_t,0.472763,-0.3541,cohens_d_z,Small,-3.6152,2.0107,1.0,0.9678,ns,ns
+NCBI,2%,full,ADAMER+iBUS,iBUS+ADAMER,66.2843,66.8462,-0.5619,5,0.060556,paired_t,0.63901,-0.2266,cohens_d_z,Small,-3.6407,2.5169,1.0,0.9678,ns,ns
